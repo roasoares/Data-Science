@@ -1,0 +1,22 @@
+2.2 -  Barras Simples
+
+par(mfrow=c(1,1))
+
+barplot(summary(dados$Sexo))
+
+barplot(summary(dados$`Faixa Etária`))
+
+barplot(summary(dados$`Faixa Etária`),col=c("Green","Orange","Black"))
+
+barplot(summary(dados$Sexo),col  = c("Black","Yellow"))
+
+
+barplot(summary(dados$`Faixa Etária`),col=c("Green","Orange","Black"),
+        xlab="Faixa Etária",ylab="Quant.",main="Faixa Etária dos Pacientes")
+
+
+barplot(summary(dados$Sexo),col  = c("Black","Yellow"),
+        xlab="Sexo",ylab="Quant.",main="Sexo dos Pacientes")
+
+
+
